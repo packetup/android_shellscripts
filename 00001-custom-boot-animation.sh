@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BOOT_ANIMATION="https://github.com/packetup/android_patches/raw/master/bootanimation.zip"
+BOOT_ANIMATION="https://github.com/packetup/android_shellscripts/raw/master/bootanimation.zip"
 mkdir -p $BUILD_DIR/branding
 echo "Downloading boot animation $BOOT_ANIMATION"
 wget -O $BUILD_DIR/branding/bootanimation.zip $BOOT_ANIMATION
